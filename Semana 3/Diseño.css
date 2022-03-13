@@ -1,0 +1,394 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* encabezado*/
+header{
+    background-color: #cbe6e683;
+    width: 100%;
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center;
+}
+.general{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor1{
+    width: 40%;
+    display: inline-flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.div {
+    width: 50%;
+    height: 5px;    
+}
+
+.divC{
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center; 
+    background-color: rgba(243, 237, 237, 0.836);
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    top: 500px;
+    left: 200px;
+}
+
+.div3{
+    width: 80%;
+}
+
+.div4{
+    width: 20%;
+}
+
+.conte{
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center;  
+    width:100%;
+    height:100%;
+}
+
+.conte1{
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center;  
+}
+
+.conteLogo{
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center; 
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 620px;
+    left: 0px;
+}
+
+.conteTB{
+    position: absolute;
+    width: 35%;
+    height: 250px;
+    top: 2300px;
+    left: 10%;
+}
+
+.conteTA{
+    position: absolute;
+    width: 33%;
+    height: 250px;
+    top: 1450px;
+    left: 55%;
+}
+
+.conteT{
+    position: absolute;
+    width: 33%;
+    height: 250px;
+    top: 800px;
+    left: 10%;
+}
+
+.conteA{
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center;
+    position: absolute;
+    width: 86%;
+    height: 450px;
+    top: 1000px;
+    left: 8%;
+}
+
+.conteB{
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 610px;
+    top: 1650px;
+    left: 0%;
+}
+
+.conteC{
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top: 2500px;
+    left: 0%;
+}
+
+.conteF{
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 3100px;
+    left: 0%;
+}
+
+.conteG{
+    display: inline-flex;
+    justify-content:  space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 3400px;
+    left: 0%;
+}
+
+.cuadro{
+    background-color: antiquewhite;
+    width: 20px;
+    height: 1px;
+}
+
+.rect{
+    width: 100%;
+    height: 10%;
+}
+
+.rectH{
+    width: 60%;
+    height: 300px;
+}
+
+.rect2{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center; 
+    width: 650px;
+    height: 50px;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+
+.rect3{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;  
+    width:100%;
+    height:100%;
+}
+
+.rect4{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;  
+    background-color: rgba(245, 239, 239, 0.678);
+    border-radius: 5%;
+    width: 20%;
+    height: 80%;
+}
+.rect4S{
+    width: 75%;
+    height: 80%;
+}
+
+.rect5{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap;  
+    width: 50%;
+    height: 100%;
+}
+
+.rect6{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;  
+    background-color: rgba(245, 239, 239, 0.678);
+    width: 70%;
+    height: 10%;
+    border-radius: 5%;
+}
+.rect7{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;  
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 100%;
+    height: 40%;
+}
+.rect8{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;   
+    background-color: rgba(233, 233, 233, 0.678);
+    width: 40%;
+    height: 80%;
+    border-radius: 10%;
+}
+.rect8A{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;  
+    width: 80%;
+    height: 30%;
+    border-radius: 5%;
+}
+
+.rect9{
+    background-color: #cbe6e683;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap;  
+    width: 50%;
+    height: 100%;
+}
+
+.rect9A{
+    text-align: left;
+    flex-wrap: wrap;  
+    width: 30%;
+    height: 200px;
+}
+
+.rect9B{
+    text-align: left;
+    flex-wrap: wrap;  
+    width: 20%;
+    height: 200px; 
+}
+
+.rect10{
+    background-color: #cbe6e683;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap;  
+    width: 50%;
+    height: 100%;
+}
+
+.img{
+    width: 100%;
+    height: 550px;
+}
+
+.imgR{
+    width: 20px;
+    height: 20px; 
+}
+
+.imgC{
+    width: 50px;
+    height: 50px; 
+}
+
+.imgL{
+    width: 100%;
+}
+
+.imgD{
+    width: 120%;
+}
+
+.imgE{
+    width: 25px;
+    right: 25px;
+}
+
+.imgF{
+    height: 100%;
+}
+
+.imgG{
+    width: 40px;
+    right: 40px;
+}
+.centr{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+    top: 0%;
+}
+
+.h2{
+    color: rgb(49, 49, 112);
+    font-size: 60px;
+}
+.h2A{
+    color: rgb(49, 49, 112);
+    font-size: 30px;
+}
+
+.h3{
+    color: rgba(124, 124, 124, 0.842);
+}
+
+.h5{
+    color: rgb(116, 116, 116);
+}
+
+.colorRGB{
+    color: rgb(146, 161, 236);
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link1{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button{
+    background-color: rgb(65, 65, 212);
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5%;
+}
+
+.text1{
+    color: rgb(30, 60, 124);
+    font-weight: 700;
+    font-size: 20px;
+}
+.text1A{
+    color: rgb(30, 60, 124);
+    font-weight: 700;
+    font-size: 25px;
+}
+.text2{
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+}
+.text2A{
+    color: rgb(102, 102, 102);
+    font-size: 10px;
+}
+
+.text3{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+}
